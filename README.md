@@ -8,12 +8,20 @@
 ## 📌 项目结构
 
 ```
+   
+│  main.py          # 主程序：爬取新闻并保存为 JSON和CSV
+│  test.py          # 测试脚本：验证爬虫功能正确性
+│  test2.py
+│
+├─DATA
+│      news.csv     # 爬取后的CSV数据（程序自动生成）
+│      news.json    # 爬取后的json数据（程序自动生成）
+│
+└─可视化
+        main_vis.py  # 可视化模块：读取 CSV 并绘图展示
 
-├── main.py         # 主程序：爬取新闻并保存为 CSV
-├── main\_vis.py     # 可视化模块：读取 CSV 并绘图展示
-├── test.py         # 测试脚本：验证爬虫功能正确性
-├── result.csv      # 爬取后的结构化数据（程序自动生成）
-├── output.png      # 可视化输出（程序自动生成）
+
+
 
 ````
 
